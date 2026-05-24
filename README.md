@@ -41,3 +41,8 @@ Running [Story of Alicia](https://storyofalicia.com/) and [Alicia Reborn](https:
 - Wine 10.x / proton-cachyos
 
 Contributions and issue reports welcome.
+
+## Credits
+- [Alicia Reborn](https://alicia-reborn.online/)
+- [Story of Alicia](https://storyofalicia.com/)
+- [Katsu](https://codeberg.org/Katsukari) for helping test the old launcher setup.
