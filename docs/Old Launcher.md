@@ -55,6 +55,7 @@ WINEPREFIX=/home/YOUR_USER/Games/story-of-alicia wineboot -u
 The bridge installs by default into `/home/YOUR_USER/Games/story-of-alicia-old/drive_c/users/YOUR_USER/AppData/Roaming/Story of Alicia/`
 
 Download the bridge from [Proton Drive](https://drive.proton.me/urls/37WM215Q1R#NlzxAZSg7VFC) and install it with Wine:
+
 *Link is from rgnter, one of Story Of Alicia's Developers. Link to direct message in their developer server: https://discord.com/channels/1372236564096352256/1372243015032242196/1506048495642218666*
 
 ```bash
