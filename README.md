@@ -15,22 +15,22 @@ Running [Story of Alicia](https://storyofalicia.com/) and [Alicia Reborn](https:
 ## Guides
 
 ### Story of Alicia
-- **[Official Launcher Setup](docs/official-launcher.md)** - Recommended. Uses the Electron-based launcher with Discord login.
-- **[Old Launcher Setup](docs/old-launcher.md)** - For the legacy launcher with `alicia-launcher-bridge.exe` and a URL translation script.
+- **[Official Launcher Setup](docs/Official%20Launcher.md)** - Recommended. Uses the Electron-based launcher with Discord login.
+- **[Old Launcher Setup](docs/Old%20Launcher.md)** - For the legacy launcher with `alicia-launcher-bridge.exe` and a URL translation script.
 
 ### Alicia Reborn
-- **[Alicia Reborn Setup](docs/alicia-reborn.md)** - Fan-run server with its own launcher and email/password login. Not tested well enough to recommend.
+- **[Alicia Reborn Setup](docs/Alicia%20Reborn.md)** - Fan-run server with its own launcher and email/password login. Not tested well enough to recommend.
 
 ### Reference
-- **[Known Issues](docs/known-issues.md)** - Issues I encountered, DXVK problems, and workarounds.
-- **[Protocol Client](docs/protocol-client.md)** - A Python tool that connects to the game server and retrieves your player info without launching the game.
+- **[Known Issues](docs/Known%20Issues.md)** - Issues I encountered, DXVK problems, and workarounds.
+- **[Protocol Client](docs/Protocol%20Client.md)** - A Python tool that connects to the game server and retrieves your player info without launching the game.
 
 ## Quick Start
 
 1. Install Wine and DXVK (see your distro's packages)
 2. Pick a launcher guide based on your GPU:
-    - **NVIDIA GPU** - use the [Old Launcher](docs/old-launcher.md) with Proton. The official launcher's WebView2 doesn't work under Proton, but NVIDIA's Wine/DXVK support is better through Proton.
-    - **AMD GPU (modern, RDNA+)** — the [Official Launcher](docs/official-launcher.md) with regular Wine should work. If you hit issues, fall back to the [Old Launcher](docs/old-launcher.md) with Proton.
+    - **NVIDIA GPU** - use the [Old Launcher](docs/Old%20Launcher.md) with Proton. The official launcher's WebView2 doesn't work under Proton, but NVIDIA's Wine/DXVK support is better through Proton.
+    - **AMD GPU (modern, RDNA+)** — the [Official Launcher](docs/Official%20Launcher.md) with regular Wine should work. If you hit issues, fall back to the [Old Launcher](docs/Old%20Launcher.md) with Proton.
     - **AMD iGPU / Intel** - same as above, try official first, old launcher as fallback.
 3. Log in via Discord, race horses
 
