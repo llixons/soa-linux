@@ -47,6 +47,8 @@ Then retry.
 
 ### 2. Install the Launcher
 
+The launcher installs by default into `/home/YOUR_USER/Games/story-of-alicia/drive_c/users/YOUR_USER/AppData/Local/Story of Alicia Launcher/`
+
 Download the launcher from [storyofalicia's website](https://storyofalicia.com) and install it with Wine:
 
 ```bash

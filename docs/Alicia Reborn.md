@@ -32,6 +32,8 @@ WINEPREFIX=/home/YOUR_USER/Games/story-of-alicia wineboot -u
 > 
 ### 2. Install the game
 
+The launcher installs by default into `/home/YOUR_USER/Games/alicia-reborn/drive_c/Games/AliciaReborn/`
+
 Download the Alicia Reborn launcher/installer from their website. Install it with Wine:
 
 ```bash

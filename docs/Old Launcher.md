@@ -35,6 +35,8 @@ WINEPREFIX=/home/YOUR_USER/Games/story-of-alicia winetricks -q vcrun2010 vcrun20
 
 ### 2. Install the Bridge
 
+The bridge installs by default into `/home/YOUR_USER/Games/story-of-alicia-old/drive_c/users/YOUR_USER/AppData/Roaming/Story of Alicia/`
+
 Download the bridge from [Proton Drive](https://drive.proton.me/urls/37WM215Q1R#NlzxAZSg7VFC
 ) and install it with Wine:
 
