@@ -2,6 +2,16 @@
 
 > If your issue isn't listed here, [open an issue](../../issues) with your distro, GPU, Wine version, and what went wrong.
 
+## Missing ntlm_auth (Debian/Ubuntu/Mint)
+
+**Symptom:** Wine shows `ntlm_auth was not found. Make sure that ntlm_auth >= 3.0.25 is in your path`.
+
+**Fix:**
+
+```bash
+sudo apt install winbind
+```
+
 ---
 
 ## Game Freezes
