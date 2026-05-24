@@ -30,7 +30,7 @@ Running [Story of Alicia](https://storyofalicia.com/) and [Alicia Reborn](https:
 1. Install Wine and DXVK (see your distro's packages)
 2. Pick a launcher guide based on your GPU:
     - **NVIDIA GPU** - use the [Old Launcher](docs/Old%20Launcher.md) with Proton. The official launcher's WebView2 doesn't work under Proton, but NVIDIA's Wine/DXVK support is better through Proton.
-    - **AMD GPU (modern, RDNA+)** — the [Official Launcher](docs/Official%20Launcher.md) with regular Wine should work. If you hit issues, fall back to the [Old Launcher](docs/Old%20Launcher.md) with Proton.
+    - **AMD GPU (modern, RDNA+)** - the [Official Launcher](docs/Official%20Launcher.md) with regular Wine should work. If you hit issues, fall back to the [Old Launcher](docs/Old%20Launcher.md) with Proton.
     - **AMD iGPU / Intel** - same as above, try official first, old launcher as fallback.
 3. Log in via Discord, race horses
 
