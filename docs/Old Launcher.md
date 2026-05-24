@@ -24,13 +24,6 @@ mkdir -p "$WINEPREFIX"
 WINEPREFIX=/home/YOUR_USER/Games/story-of-alicia wineboot -u
 ```
 
-A fresh Wine prefix is missing runtime libraries the launcher needs. Install them:
-This can take a few minutes.
-
-```bash
-WINEPREFIX=/home/YOUR_USER/Games/story-of-alicia winetricks -q vcrun2010 vcrun2012 vcrun2013 vcrun2019 
-```
-
 > Note: Follow the installer's default installer path and settings.
 
 ### 2. Install the Bridge
