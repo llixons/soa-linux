@@ -19,7 +19,7 @@ If you have the legacy launcher with `alicia-launcher-bridge.exe`, you need a sc
 ### 1. Create a Wine prefix
 
 ```bash
-export WINEPREFIX=/home/YOUR_USER/Games/alicia-reborn
+export WINEPREFIX=/home/YOUR_USER/Games/story-of-alicia
 mkdir -p "$WINEPREFIX"
 WINEPREFIX=/home/YOUR_USER/Games/story-of-alicia wineboot -u
 ```
