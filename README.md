@@ -45,4 +45,4 @@ Contributions and issue reports welcome.
 ## Credits
 - [Alicia Reborn](https://alicia-reborn.online/)
 - [Story of Alicia](https://storyofalicia.com/)
-- [Katsu](https://codeberg.org/Katsukari) for helping test the old launcher setup.
+- [Katsu](https://codeberg.org/Katsukari) for helping with testing.
