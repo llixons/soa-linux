@@ -8,6 +8,30 @@ If you have the legacy launcher with `alicia-launcher-bridge.exe`, you need a sc
 - **DXVK**
 - **Python 3**
 
+### Install packages
+
+Arch/CachyOS:
+
+```bash
+sudo pacman -S wine dxvk python3
+```
+
+Debian/Ubuntu:
+
+```bash
+sudo apt install wine dxvk python3
+```
+
+Fedora:
+
+```bash
+sudo dnf install wine python3
+```
+
+> DXVK is not in Fedora's default repos. Install it via [RPM Fusion](https://rpmfusion.org/) (`sudo dnf install dxvk`) or manually.
+
+> Proton is typically installed via Steam rather than a system package. If using Proton, see the Steam client or download [Proton-GE](https://github.com/GloriousEggroll/proton-ge-custom/releases) manually.
+
 
 ## Setup
 

@@ -13,6 +13,28 @@
 - **Wine** or **Proton** (proton-cachyos confirmed working)
 - **DXVK**
 
+### Install packages
+
+Arch/CachyOS:
+
+```bash
+sudo pacman -S wine dxvk python3
+```
+
+Debian/Ubuntu:
+
+```bash
+sudo apt install wine dxvk python3
+```
+
+Fedora:
+
+```bash
+sudo dnf install wine python3
+```
+
+> DXVK is not in Fedora's default repos. Install it via [RPM Fusion](https://rpmfusion.org/) (`sudo dnf install dxvk`) or manually.
+
 >Replace YOUR_USER always with your own username on Linux. Eg. `/home/YOUR_USER/` becomes `/home/lio` if your username is lio
 >
 > Adjust `WINE_PATH` if using Proton (e.g. `/usr/share/steam/compatibilitytools.d/proton-cachyos/files/bin/wine` instead of `wine`).
@@ -45,7 +67,6 @@ WINEPREFIX=/home/YOUR_USER/Games/alicia-reborn wine AliciaRebornSetup.exe
 ### 3. Install DXVK
 
 ```bash
-sudo pacman -S dxvk  # Arch/CachyOS
 WINEPREFIX=~/Games/alicia-reborn setup_dxvk install
 ```
 

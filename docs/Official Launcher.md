@@ -13,8 +13,22 @@ The official SOA launcher is an Electron app with WebView2. It handles Discord l
 Arch/CachyOS:
 
 ```bash
-sudo pacman -S python wine dxvk winetricks
+sudo pacman -S python3 wine dxvk winetricks
 ```
+
+Debian/Ubuntu:
+
+```bash
+sudo apt install wine winetricks python3 dxvk
+```
+
+Fedora:
+
+```bash
+sudo dnf install wine winetricks python3
+```
+
+> DXVK is not in Fedora's default repos. Install it via [RPM Fusion](https://rpmfusion.org/) (`sudo dnf install dxvk`) or manually.
 
 ## Setup
 
